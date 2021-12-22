@@ -34,8 +34,8 @@ function init() {
     info.style.top = '10px';
     info.style.width = '100%';
     info.style.textAlign = 'center';
-    info.innerHTML = 'This Christmas tree is prepared by <a target="_blank" href="http://www.script-tutorials.com/">Script Tutorials</a> team.<br/>Drag to spin';
-    //container.appendChild(info);
+    info.innerHTML = 'Buona Natale Giulia';
+    container.appendChild(info);
 
     // initialize the scene
     scene = new THREE.Scene();
