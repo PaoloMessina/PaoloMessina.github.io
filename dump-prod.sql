@@ -940,6 +940,27 @@ CREATE TABLE public.d_visure (
     utente_aggiornamento character varying(50)
 );
 
+/* START FIX ALTER TABLE FOR PMR import with comma */
+
+ALTER TABLE public.d_adi_violazioni ALTER COLUMN importo_pagamento_minimo TYPE numeric(19, 2) USING importo_pagamento_minimo::numeric;
+
+ALTER TABLE public.d_adi_violazioni ALTER COLUMN importo_pagamento_massimo TYPE numeric(19, 2) USING importo_pagamento_minimo::numeric;
+
+ALTER TABLE public.d_adi_violazioni ALTER COLUMN importo_pagamento_scontato TYPE numeric(19, 2) USING importo_pagamento_minimo::numeric;
+
+ALTER TABLE public.d_adi_violazioni ALTER COLUMN importo_pagamento_misura_ridotta TYPE numeric(19, 2) USING importo_pagamento_minimo::numeric;
+
+
+
+ALTER TABLE public.d_prosa_sanzioni ALTER COLUMN importo_pagamento_minimo TYPE numeric(19, 2) USING importo_pagamento_minimo::numeric;
+
+ALTER TABLE public.d_prosa_sanzioni ALTER COLUMN importo_pagamento_massimo TYPE numeric(19, 2) USING importo_pagamento_minimo::numeric;
+
+ALTER TABLE public.d_prosa_sanzioni ALTER COLUMN importo_pagamento_scontato TYPE numeric(19, 2) USING importo_pagamento_minimo::numeric;
+
+ALTER TABLE public.d_prosa_sanzioni ALTER COLUMN importo_pagamento_misura_ridotta TYPE numeric(19, 2) USING importo_pagamento_minimo::numeric;
+
+/* END FIX ALTER TABLE FOR PMR import with comma */
 
 --
 -- TOC entry 3681 (class 0 OID 50251)
