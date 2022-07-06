@@ -162,7 +162,7 @@ CREATE SEQUENCE public.s_prog_adi
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_adi OWNER TO postgres;
+ALTER TABLE public.s_prog_adi OWNER TO polizialocale;
 
 --
 -- TOC entry 201 (class 1259 OID 57558)
@@ -190,7 +190,7 @@ CREATE TABLE public.d_adi (
 );
 
 
-ALTER TABLE public.d_adi OWNER TO postgres;
+ALTER TABLE public.d_adi OWNER TO polizialocale;
 
 --
 -- TOC entry 202 (class 1259 OID 57567)
@@ -205,7 +205,7 @@ CREATE SEQUENCE public.s_prog_adi_allegati
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_adi_allegati OWNER TO postgres;
+ALTER TABLE public.s_prog_adi_allegati OWNER TO polizialocale;
 
 --
 -- TOC entry 203 (class 1259 OID 57569)
@@ -224,7 +224,7 @@ CREATE TABLE public.d_adi_allegati (
 );
 
 
-ALTER TABLE public.d_adi_allegati OWNER TO postgres;
+ALTER TABLE public.d_adi_allegati OWNER TO polizialocale;
 
 --
 -- TOC entry 204 (class 1259 OID 57578)
@@ -250,7 +250,7 @@ CREATE TABLE public.d_adi_localita (
 );
 
 
-ALTER TABLE public.d_adi_localita OWNER TO postgres;
+ALTER TABLE public.d_adi_localita OWNER TO polizialocale;
 
 --
 -- TOC entry 205 (class 1259 OID 57586)
@@ -265,7 +265,7 @@ CREATE SEQUENCE public.s_prog_adi_notifiche
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_adi_notifiche OWNER TO postgres;
+ALTER TABLE public.s_prog_adi_notifiche OWNER TO polizialocale;
 
 --
 -- TOC entry 206 (class 1259 OID 57588)
@@ -281,7 +281,7 @@ CREATE TABLE public.d_adi_notifiche (
 );
 
 
-ALTER TABLE public.d_adi_notifiche OWNER TO postgres;
+ALTER TABLE public.d_adi_notifiche OWNER TO polizialocale;
 
 --
 -- TOC entry 207 (class 1259 OID 57595)
@@ -298,7 +298,7 @@ CREATE TABLE public.d_adi_vdc (
 );
 
 
-ALTER TABLE public.d_adi_vdc OWNER TO postgres;
+ALTER TABLE public.d_adi_vdc OWNER TO polizialocale;
 
 --
 -- TOC entry 208 (class 1259 OID 57600)
@@ -324,7 +324,7 @@ CREATE TABLE public.d_adi_veicoli (
 );
 
 
-ALTER TABLE public.d_adi_veicoli OWNER TO postgres;
+ALTER TABLE public.d_adi_veicoli OWNER TO polizialocale;
 
 --
 -- TOC entry 209 (class 1259 OID 57608)
@@ -339,7 +339,7 @@ CREATE SEQUENCE public.s_prog_adi_violazioni
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_adi_violazioni OWNER TO postgres;
+ALTER TABLE public.s_prog_adi_violazioni OWNER TO polizialocale;
 
 --
 -- TOC entry 210 (class 1259 OID 57610)
@@ -370,7 +370,7 @@ CREATE TABLE public.d_adi_violazioni (
 );
 
 
-ALTER TABLE public.d_adi_violazioni OWNER TO postgres;
+ALTER TABLE public.d_adi_violazioni OWNER TO polizialocale;
 
 --
 -- TOC entry 211 (class 1259 OID 57624)
@@ -385,7 +385,7 @@ CREATE SEQUENCE public.s_prog_categorie
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_categorie OWNER TO postgres;
+ALTER TABLE public.s_prog_categorie OWNER TO polizialocale;
 
 --
 -- TOC entry 212 (class 1259 OID 57626)
@@ -404,7 +404,7 @@ CREATE TABLE public.d_categorie (
 );
 
 
-ALTER TABLE public.d_categorie OWNER TO postgres;
+ALTER TABLE public.d_categorie OWNER TO polizialocale;
 
 --
 -- TOC entry 213 (class 1259 OID 57632)
@@ -419,7 +419,7 @@ CREATE SEQUENCE public.s_prog_colori_veicoli
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_colori_veicoli OWNER TO postgres;
+ALTER TABLE public.s_prog_colori_veicoli OWNER TO polizialocale;
 
 --
 -- TOC entry 214 (class 1259 OID 57634)
@@ -438,7 +438,7 @@ CREATE TABLE public.d_colori_veicoli (
 );
 
 
-ALTER TABLE public.d_colori_veicoli OWNER TO postgres;
+ALTER TABLE public.d_colori_veicoli OWNER TO polizialocale;
 
 --
 -- TOC entry 215 (class 1259 OID 57640)
@@ -453,7 +453,7 @@ CREATE SEQUENCE public.s_prog_comandi_zona
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_comandi_zona OWNER TO postgres;
+ALTER TABLE public.s_prog_comandi_zona OWNER TO polizialocale;
 
 --
 -- TOC entry 216 (class 1259 OID 57642)
@@ -474,7 +474,7 @@ CREATE TABLE public.d_comandi_zona (
 );
 
 
-ALTER TABLE public.d_comandi_zona OWNER TO postgres;
+ALTER TABLE public.d_comandi_zona OWNER TO polizialocale;
 
 --
 -- TOC entry 217 (class 1259 OID 57648)
@@ -489,7 +489,7 @@ CREATE SEQUENCE public.s_prog_contatti
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_contatti OWNER TO postgres;
+ALTER TABLE public.s_prog_contatti OWNER TO polizialocale;
 
 --
 -- TOC entry 218 (class 1259 OID 57650)
@@ -506,7 +506,7 @@ CREATE TABLE public.d_contatti (
 );
 
 
-ALTER TABLE public.d_contatti OWNER TO postgres;
+ALTER TABLE public.d_contatti OWNER TO polizialocale;
 
 --
 -- TOC entry 219 (class 1259 OID 57656)
@@ -521,7 +521,7 @@ CREATE SEQUENCE public.s_prog_credenziali_mctc
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_credenziali_mctc OWNER TO postgres;
+ALTER TABLE public.s_prog_credenziali_mctc OWNER TO polizialocale;
 
 --
 -- TOC entry 220 (class 1259 OID 57658)
@@ -540,7 +540,7 @@ CREATE TABLE public.d_credenziali_mctc (
 );
 
 
-ALTER TABLE public.d_credenziali_mctc OWNER TO postgres;
+ALTER TABLE public.d_credenziali_mctc OWNER TO polizialocale;
 
 --
 -- TOC entry 221 (class 1259 OID 57664)
@@ -555,7 +555,7 @@ CREATE SEQUENCE public.s_prog_documenti
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_documenti OWNER TO postgres;
+ALTER TABLE public.s_prog_documenti OWNER TO polizialocale;
 
 --
 -- TOC entry 222 (class 1259 OID 57666)
@@ -577,7 +577,7 @@ CREATE TABLE public.d_documenti (
 );
 
 
-ALTER TABLE public.d_documenti OWNER TO postgres;
+ALTER TABLE public.d_documenti OWNER TO polizialocale;
 
 --
 -- TOC entry 223 (class 1259 OID 57675)
@@ -592,7 +592,7 @@ CREATE SEQUENCE public.s_prog_manuali
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_manuali OWNER TO postgres;
+ALTER TABLE public.s_prog_manuali OWNER TO polizialocale;
 
 --
 -- TOC entry 224 (class 1259 OID 57677)
@@ -609,7 +609,7 @@ CREATE TABLE public.d_manuali (
 );
 
 
-ALTER TABLE public.d_manuali OWNER TO postgres;
+ALTER TABLE public.d_manuali OWNER TO polizialocale;
 
 --
 -- TOC entry 225 (class 1259 OID 57683)
@@ -624,7 +624,7 @@ CREATE SEQUENCE public.s_prog_marche_veicoli
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_marche_veicoli OWNER TO postgres;
+ALTER TABLE public.s_prog_marche_veicoli OWNER TO polizialocale;
 
 --
 -- TOC entry 226 (class 1259 OID 57685)
@@ -644,7 +644,7 @@ CREATE TABLE public.d_marche_veicoli (
 );
 
 
-ALTER TABLE public.d_marche_veicoli OWNER TO postgres;
+ALTER TABLE public.d_marche_veicoli OWNER TO polizialocale;
 
 --
 -- TOC entry 227 (class 1259 OID 57691)
@@ -659,7 +659,7 @@ CREATE SEQUENCE public.s_prog_menu
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_menu OWNER TO postgres;
+ALTER TABLE public.s_prog_menu OWNER TO polizialocale;
 
 --
 -- TOC entry 228 (class 1259 OID 57693)
@@ -681,7 +681,7 @@ CREATE TABLE public.d_menu (
 );
 
 
-ALTER TABLE public.d_menu OWNER TO postgres;
+ALTER TABLE public.d_menu OWNER TO polizialocale;
 
 --
 -- TOC entry 229 (class 1259 OID 57702)
@@ -696,7 +696,7 @@ CREATE SEQUENCE public.s_prog_modelli_veicoli
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_modelli_veicoli OWNER TO postgres;
+ALTER TABLE public.s_prog_modelli_veicoli OWNER TO polizialocale;
 
 --
 -- TOC entry 230 (class 1259 OID 57704)
@@ -716,7 +716,7 @@ CREATE TABLE public.d_modelli_veicoli (
 );
 
 
-ALTER TABLE public.d_modelli_veicoli OWNER TO postgres;
+ALTER TABLE public.d_modelli_veicoli OWNER TO polizialocale;
 
 --
 -- TOC entry 231 (class 1259 OID 57710)
@@ -731,7 +731,7 @@ CREATE SEQUENCE public.s_prog_profili
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_profili OWNER TO postgres;
+ALTER TABLE public.s_prog_profili OWNER TO polizialocale;
 
 --
 -- TOC entry 232 (class 1259 OID 57712)
@@ -753,7 +753,7 @@ CREATE TABLE public.d_profili (
 );
 
 
-ALTER TABLE public.d_profili OWNER TO postgres;
+ALTER TABLE public.d_profili OWNER TO polizialocale;
 
 --
 -- TOC entry 233 (class 1259 OID 57718)
@@ -769,7 +769,7 @@ CREATE TABLE public.d_prosa_aggiornamenti (
 );
 
 
-ALTER TABLE public.d_prosa_aggiornamenti OWNER TO postgres;
+ALTER TABLE public.d_prosa_aggiornamenti OWNER TO polizialocale;
 
 --
 -- TOC entry 234 (class 1259 OID 57721)
@@ -786,7 +786,7 @@ CREATE TABLE public.d_prosa_categoria_rco (
 );
 
 
-ALTER TABLE public.d_prosa_categoria_rco OWNER TO postgres;
+ALTER TABLE public.d_prosa_categoria_rco OWNER TO polizialocale;
 
 --
 -- TOC entry 235 (class 1259 OID 57726)
@@ -803,7 +803,7 @@ CREATE TABLE public.d_prosa_codice_d (
 );
 
 
-ALTER TABLE public.d_prosa_codice_d OWNER TO postgres;
+ALTER TABLE public.d_prosa_codice_d OWNER TO polizialocale;
 
 --
 -- TOC entry 236 (class 1259 OID 57731)
@@ -822,7 +822,7 @@ CREATE TABLE public.d_prosa_genere_veicoli (
 );
 
 
-ALTER TABLE public.d_prosa_genere_veicoli OWNER TO postgres;
+ALTER TABLE public.d_prosa_genere_veicoli OWNER TO polizialocale;
 
 --
 -- TOC entry 237 (class 1259 OID 57736)
@@ -840,7 +840,7 @@ CREATE TABLE public.d_prosa_nazioni (
 );
 
 
-ALTER TABLE public.d_prosa_nazioni OWNER TO postgres;
+ALTER TABLE public.d_prosa_nazioni OWNER TO polizialocale;
 
 --
 -- TOC entry 238 (class 1259 OID 57741)
@@ -866,7 +866,7 @@ CREATE TABLE public.d_prosa_sanzioni (
 );
 
 
-ALTER TABLE public.d_prosa_sanzioni OWNER TO postgres;
+ALTER TABLE public.d_prosa_sanzioni OWNER TO polizialocale;
 
 --
 -- TOC entry 239 (class 1259 OID 57753)
@@ -881,7 +881,7 @@ CREATE SEQUENCE public.s_prog_prosa_sanzioni_accessorie
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_prosa_sanzioni_accessorie OWNER TO postgres;
+ALTER TABLE public.s_prog_prosa_sanzioni_accessorie OWNER TO polizialocale;
 
 --
 -- TOC entry 240 (class 1259 OID 57755)
@@ -901,7 +901,7 @@ CREATE TABLE public.d_prosa_sanzioni_accessorie (
 );
 
 
-ALTER TABLE public.d_prosa_sanzioni_accessorie OWNER TO postgres;
+ALTER TABLE public.d_prosa_sanzioni_accessorie OWNER TO polizialocale;
 
 --
 -- TOC entry 241 (class 1259 OID 57762)
@@ -918,7 +918,7 @@ CREATE TABLE public.d_prosa_serie_veicoli (
 );
 
 
-ALTER TABLE public.d_prosa_serie_veicoli OWNER TO postgres;
+ALTER TABLE public.d_prosa_serie_veicoli OWNER TO polizialocale;
 
 --
 -- TOC entry 242 (class 1259 OID 57767)
@@ -935,7 +935,7 @@ CREATE TABLE public.d_rel_profili_manuali (
 );
 
 
-ALTER TABLE public.d_rel_profili_manuali OWNER TO postgres;
+ALTER TABLE public.d_rel_profili_manuali OWNER TO polizialocale;
 
 --
 -- TOC entry 243 (class 1259 OID 57772)
@@ -954,7 +954,7 @@ CREATE TABLE public.d_rel_profili_menu (
 );
 
 
-ALTER TABLE public.d_rel_profili_menu OWNER TO postgres;
+ALTER TABLE public.d_rel_profili_menu OWNER TO polizialocale;
 
 --
 -- TOC entry 244 (class 1259 OID 57777)
@@ -969,7 +969,7 @@ CREATE SEQUENCE public.s_prog_sanzioni_accessorie
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_sanzioni_accessorie OWNER TO postgres;
+ALTER TABLE public.s_prog_sanzioni_accessorie OWNER TO polizialocale;
 
 --
 -- TOC entry 245 (class 1259 OID 57779)
@@ -989,7 +989,7 @@ CREATE TABLE public.d_sanzioni_accessorie (
 );
 
 
-ALTER TABLE public.d_sanzioni_accessorie OWNER TO postgres;
+ALTER TABLE public.d_sanzioni_accessorie OWNER TO polizialocale;
 
 --
 -- TOC entry 246 (class 1259 OID 57786)
@@ -1004,7 +1004,7 @@ CREATE SEQUENCE public.s_prog_sottocategorie
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_sottocategorie OWNER TO postgres;
+ALTER TABLE public.s_prog_sottocategorie OWNER TO polizialocale;
 
 --
 -- TOC entry 247 (class 1259 OID 57788)
@@ -1024,7 +1024,7 @@ CREATE TABLE public.d_sottocategorie (
 );
 
 
-ALTER TABLE public.d_sottocategorie OWNER TO postgres;
+ALTER TABLE public.d_sottocategorie OWNER TO polizialocale;
 
 --
 -- TOC entry 248 (class 1259 OID 57794)
@@ -1039,7 +1039,7 @@ CREATE SEQUENCE public.s_prog_stati_adi
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_stati_adi OWNER TO postgres;
+ALTER TABLE public.s_prog_stati_adi OWNER TO polizialocale;
 
 --
 -- TOC entry 249 (class 1259 OID 57796)
@@ -1057,7 +1057,7 @@ CREATE TABLE public.d_stati_adi (
 );
 
 
-ALTER TABLE public.d_stati_adi OWNER TO postgres;
+ALTER TABLE public.d_stati_adi OWNER TO polizialocale;
 
 --
 -- TOC entry 250 (class 1259 OID 57802)
@@ -1072,7 +1072,7 @@ CREATE SEQUENCE public.s_prog_stati_visure
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_stati_visure OWNER TO postgres;
+ALTER TABLE public.s_prog_stati_visure OWNER TO polizialocale;
 
 --
 -- TOC entry 251 (class 1259 OID 57804)
@@ -1090,7 +1090,7 @@ CREATE TABLE public.d_stati_visure (
 );
 
 
-ALTER TABLE public.d_stati_visure OWNER TO postgres;
+ALTER TABLE public.d_stati_visure OWNER TO polizialocale;
 
 --
 -- TOC entry 252 (class 1259 OID 57810)
@@ -1105,7 +1105,7 @@ CREATE SEQUENCE public.s_prog_tipo_visure
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_tipo_visure OWNER TO postgres;
+ALTER TABLE public.s_prog_tipo_visure OWNER TO polizialocale;
 
 --
 -- TOC entry 253 (class 1259 OID 57812)
@@ -1123,7 +1123,7 @@ CREATE TABLE public.d_tipo_visure (
 );
 
 
-ALTER TABLE public.d_tipo_visure OWNER TO postgres;
+ALTER TABLE public.d_tipo_visure OWNER TO polizialocale;
 
 --
 -- TOC entry 254 (class 1259 OID 57818)
@@ -1138,7 +1138,7 @@ CREATE SEQUENCE public.s_prog_utenti
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_utenti OWNER TO postgres;
+ALTER TABLE public.s_prog_utenti OWNER TO polizialocale;
 
 --
 -- TOC entry 255 (class 1259 OID 57820)
@@ -1159,7 +1159,7 @@ CREATE TABLE public.d_utenti (
 );
 
 
-ALTER TABLE public.d_utenti OWNER TO postgres;
+ALTER TABLE public.d_utenti OWNER TO polizialocale;
 
 --
 -- TOC entry 256 (class 1259 OID 57826)
@@ -1174,7 +1174,7 @@ CREATE SEQUENCE public.s_prog_visure
     CACHE 1;
 
 
-ALTER TABLE public.s_prog_visure OWNER TO postgres;
+ALTER TABLE public.s_prog_visure OWNER TO polizialocale;
 
 --
 -- TOC entry 257 (class 1259 OID 57828)
@@ -1198,7 +1198,7 @@ CREATE TABLE public.d_visure (
 );
 
 
-ALTER TABLE public.d_visure OWNER TO postgres;
+ALTER TABLE public.d_visure OWNER TO polizialocale;
 
 --
 -- TOC entry 3679 (class 0 OID 57558)
