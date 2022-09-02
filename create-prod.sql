@@ -1640,9 +1640,7 @@ ALTER TABLE ONLY public.d_colori_veicoli
 -- Name: d_comandi_zona d_comandi_zona_codice_unita_key; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY public.d_comandi_zona
-    ADD CONSTRAINT d_comandi_zona_codice_unita_key UNIQUE (codice_unita);
-
+ALTER TABLE public.d_comandi_zona ADD CONSTRAINT d_comandi_zona_un UNIQUE (codice_unita,data_inizio_validita,data_fine_validita);
 
 --
 -- TOC entry 3442 (class 2606 OID 57878)
