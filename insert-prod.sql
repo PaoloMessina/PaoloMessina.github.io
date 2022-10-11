@@ -93,6 +93,7 @@ INSERT INTO public.d_comandi_zona (codice_prosa,codice_unita,desc_unita,data_ini
 	 ('22','LH070','AREA PROCEDURE SANZIONATORIE','2022-07-07','9999-12-31','2022-08-29 08:40:06.525','SYSTEM',NULL,NULL);
 	 
 UPDATE public.d_comandi_zona set desc_unita = 'UNITA'' INVESTIGAZIONI E PREVENZIONE' where codice_unita = 'LH095';
+UPDATE d_comandi_zona set desc_unita = 'UNITA'' ANNONARIA E COMMERCIALE' where codice_unita = 'LH019';
 
 --
 -- TOC entry 3696 (class 0 OID 57650)
