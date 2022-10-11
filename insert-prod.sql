@@ -94,6 +94,8 @@ INSERT INTO public.d_comandi_zona (codice_prosa,codice_unita,desc_unita,data_ini
 	 
 UPDATE public.d_comandi_zona set desc_unita = 'UNITA'' INVESTIGAZIONI E PREVENZIONE' where codice_unita = 'LH095';
 UPDATE d_comandi_zona set desc_unita = 'UNITA'' ANNONARIA E COMMERCIALE' where codice_unita = 'LH019';
+UPDATE d_comandi_zona set desc_unita = 'UNITA'' ANNONARIA E COMMERCIALE' where codice_unita = 'LH096';
+UPDATE d_comandi_zona set desc_unita = 'UNITA'' GABINETTO DELLA POLIZIA LOCALE' where codice_unita = 'LH092';
 
 --
 -- TOC entry 3696 (class 0 OID 57650)
