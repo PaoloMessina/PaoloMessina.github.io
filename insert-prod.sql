@@ -106,8 +106,10 @@ UPDATE d_comandi_zona set desc_unita = 'UNITA'' INVESTIGAZIONI E PREVENZIONE' wh
 UPDATE d_comandi_zona set desc_unita = 'UNITA'' ANNONARIA E COMMERCIALE' where codice_unita = 'LH019';
 UPDATE d_comandi_zona set desc_unita = 'UNITA'' ANNONARIA E COMMERCIALE' where codice_unita = 'LH096';
 UPDATE d_comandi_zona set desc_unita = 'UNITA'' GABINETTO DELLA POLIZIA LOCALE' where codice_unita = 'LH092';
-UPDATE d_comandi_zona set desc_unita = 'UNITA'' PERSONALE DISTACCATO PRESSO L'AUTORITA'' GIUDIZIARIA' where codice_unita = 'LH061';
+UPDATE d_comandi_zona set desc_unita = 'UNITA'' PERSONALE DISTACCATO PRESSO L''AUTORITA'' GIUDIZIARIA' where codice_unita = 'LH061';
 UPDATE d_comandi_zona set desc_unita = 'UNITA'' COORDINAMENTO SICUREZZA TERRITORIALE INTEGRATA' where codice_unita = 'LH049';
+UPDATE d_comandi_zona set desc_unita = 'UFFICIO ALIQUOTE AGGREGATE PRESSO L''AUTORITA'' GIUDIZIARIA' where codice_unita = 'LH8NA';
+UPDATE d_comandi_zona set desc_unita = 'UFFICIO ALIQUOTE DISTACCATE PRESSO L''AUTORITA'' GIUDIZIARIA' where codice_unita = 'LH7NA';
 
 
 --
