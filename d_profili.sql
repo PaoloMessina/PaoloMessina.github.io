@@ -1,0 +1,3 @@
+INSERT INTO public.d_profili (seq_id_profili, codice_profilo, desc_profilo, codice_profilo_adfs, filtra_adi, filtra_zona, filtra_visure, data_creazione, utente_creazione, data_aggiornamento, utente_aggiornamento) VALUES(7, 'AMAT', 'Agente AMAT', 'adi_amat', true, true, true, now(), 'SYSTEM', NULL, NULL);
+
+INSERT INTO public.d_profili (seq_id_profili, codice_profilo, desc_profilo, codice_profilo_adfs, filtra_adi, filtra_zona, filtra_visure, data_creazione, utente_creazione, data_aggiornamento, utente_aggiornamento) VALUES(8, 'SUPERVISOREAMAT', 'Supervisore AMAT', 'adi_amat_supervisore', false, false, false, now(), 'SYSTEM', NULL, NULL);
