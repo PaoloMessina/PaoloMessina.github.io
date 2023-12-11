@@ -1,1 +1,0 @@
-ALTER TABLE public.d_utenti ALTER COLUMN codice_codana DROP NOT NULL;
